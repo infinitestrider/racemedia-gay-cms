@@ -1,0 +1,45 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Welcome!</h1>
+			<p>
+				Welcome to the <a href="https://raceplay.site/">raceplay.site</a> Gay Section
+			</p>
+			<p>
+				For the sake of demand and categorization we made a section specifically for gay raceplay oriented content.
+			</p>
+			<p>
+				Our main social medias are <a href="https://twitter.com/RaceplayVideos"
+					>Twitter
+				</a> and <a href="https://t.me/RaceplayClips">join us on Telegram</a> to ask questions.
+			</p>
+			<div>
+				<br>
+				<h1>Pricing</h1>
+				<p>
+					The pricing will be the same as the Straight section of the website, where its 5$ for every video.
+				</p>
+				</div>
+				<br>
+				<div>
+				<h1>About</h1>
+				<p>
+					What <a href="https://en.wikipedia.org/wiki/Race_and_sexuality">raceplay</a> is.
+				</p>
+				</div>		
+		</main>
+		<Footer />
+	</body>
+</html>
